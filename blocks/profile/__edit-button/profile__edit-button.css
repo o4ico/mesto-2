@@ -1,0 +1,16 @@
+.profile__edit-button {
+
+  /*Размеры и отступы*/
+  height: 24px;
+  width: 24px;
+  position: relative;
+  top: -15px;
+
+  /*Оформление кнопки*/
+  background-color: #000;
+  background-image: url(../../../images/Edit.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 10px;
+  border: 1px solid #FFF;
+}

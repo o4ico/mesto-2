@@ -1,0 +1,14 @@
+.profile__add-button {
+  
+  /*Размеры и отступы*/
+  height: 50px;
+  width: 150px;
+
+  /*Оформление кнопки*/
+  background-color: #000;
+  background-image: url(../../../images/Add.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 22px;
+  border: 1px solid #FFF;
+}

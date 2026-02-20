@@ -1,0 +1,13 @@
+.card {
+
+  display: flex;
+  flex-direction: column;
+
+  /*Размеры и отступы*/
+  width: 282px;
+  height: 361px;
+
+  background-color: #FFF;
+  border-radius: 10px;
+  overflow: hidden;
+}

@@ -1,0 +1,10 @@
+.profile {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 40px 0 0;
+  width: 68.75%;
+  margin: 0 auto;
+}

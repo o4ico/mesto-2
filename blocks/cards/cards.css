@@ -1,0 +1,11 @@
+.cards {
+  /*Сетка*/
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-auto-rows: 1fr;
+
+  /*Размеры и отступы*/
+  gap: 17px;
+  margin: 51px auto 0;
+  width: 68.75%;
+}
