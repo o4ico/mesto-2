@@ -1,0 +1,9 @@
+.footer {
+  /*Выравнивание*/
+  display: flex;
+  justify-content: flex-start;
+
+  /*Размеры и отступы*/
+  margin: 66px auto 60px;
+  width: 68.75%;
+}

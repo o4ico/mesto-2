@@ -1,0 +1,10 @@
+.footer__author {
+  /*Сброс отступов*/
+  margin: 0;
+
+  /*Типографика*/
+  color: #545454;
+  font-size: 18px;
+  font-weight: normal;
+  line-height: 100%;
+}
