@@ -1,0 +1,16 @@
+.popup__input {
+  /*Оформление нижней линии*/
+  border: none;
+  border-bottom: 0.5px solid rgba(0, 0, 0, 0.15);
+  padding: 0 0 10px;
+
+  /*Типографика*/
+  color: #000;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 100%;
+}
+
+.popup__input:first-of-type {
+  margin: 54px 0 30px;
+}

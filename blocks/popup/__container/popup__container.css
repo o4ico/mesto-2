@@ -1,0 +1,16 @@
+.popup__container {
+  /*Выравнивание*/
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+
+  /*Оформление*/
+  background-color: #FFF;
+  border-radius: 10px;
+
+  /*размеры и отступы*/
+  height: 330px;
+  padding: 34px 36px 37px 36px;
+  width: 430px;
+}

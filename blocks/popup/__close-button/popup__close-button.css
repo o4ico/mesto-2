@@ -1,0 +1,16 @@
+.popup__close-button {
+  /*Размеры и отступы*/
+  height: 32px;
+  width: 32px;
+  position: absolute;
+  top: -40px;
+  right: -40px;
+  
+  /*Оформление кнопки*/
+  background-color: transparent;
+  background-image: url(../../../images/Close-Icon.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 32px;
+  border: none;
+}

@@ -1,0 +1,10 @@
+.popup__title {
+  /*Сброс отступов*/
+  margin: 0;
+
+  /*Типографика*/
+  color: #000;
+  font-size: 24px;
+  font-weight: 900;
+  line-height: 100%;
+}
