@@ -1,12 +1,19 @@
 .popup__submit-button {
-  /*Оформление*/
-  background-color: #000;
-  border-radius: 2px;
-  border: none;
-  color: #FFF;
 
   /*Размеры и отступы*/
   height: 50px;
   margin: 48px 0 0;
   width: 358px;
+
+  /*Оформление*/
+  background-color: #000;
+  border-radius: 2px;
+  border: none;
+  color: #FFF;
+  cursor: pointer;
+  transition: opacity 0.1s ease-in-out;
+}
+
+.popup__submit-button:hover {
+  opacity: .8;
 }

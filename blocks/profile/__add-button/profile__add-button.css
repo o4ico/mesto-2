@@ -11,4 +11,10 @@
   background-repeat: no-repeat;
   background-size: 22px;
   border: 1px solid #FFF;
+  cursor: pointer;
+  transition: opacity 0.1s ease-in-out;
+}
+
+.profile__add-button:hover {
+  opacity: .6;
 }
