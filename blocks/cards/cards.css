@@ -1,11 +1,31 @@
 .cards {
   /*Сетка*/
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  justify-items: center;
+  grid-template-columns: repeat(3, 282px);
   grid-auto-rows: 1fr;
 
   /*Размеры и отступы*/
-  gap: 17px;
-  margin: 51px auto 0;
-  width: 68.75%;
+  gap: 20px 17px;
+  margin: 50px auto 0;
+  max-width: 880px;
+}
+
+@media (max-width: 1024px) {
+
+  .cards {
+    grid-template-columns: repeat(2, 282px);
+    max-width: 581px;
+  }
+
+}
+
+@media (max-width: 768px) {
+
+  .cards {
+    grid-template-columns: 282px;
+    margin: 36px auto 0;
+    max-width: 282px;
+  }
+
 }

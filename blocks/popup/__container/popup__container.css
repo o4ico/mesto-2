@@ -11,6 +11,16 @@
 
   /*размеры и отступы*/
   height: 330px;
-  padding: 34px 36px 37px 36px;
+  padding: 34px 36px 37px;
   width: 430px;
+}
+
+@media (max-width: 768px) {
+
+  .popup__container {
+    height: 322px;
+    padding: 25px 22px 25px;
+    width: 282px;
+  }
+
 }

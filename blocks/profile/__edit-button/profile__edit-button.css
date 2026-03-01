@@ -3,8 +3,6 @@
   /*Размеры и отступы*/
   height: 24px;
   width: 24px;
-  position: relative;
-  top: -15px;
 
   /*Оформление кнопки*/
   background-color: #000;
@@ -19,4 +17,16 @@
 
 .profile__edit-button:hover {
   opacity: .6;
+}
+
+@media (max-width: 768px) {
+
+  .profile__edit-button {
+    
+    /*Размеры и отступы*/
+    background-size: 7.5px;
+    height: 18px;
+    width: 18px;
+  }
+
 }

@@ -1,10 +1,35 @@
 .profile {
+  
+  /*Выравнивание*/
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
 
+  /*Размеры и отступы*/
   padding: 40px 0 0;
-  width: 68.75%;
+  width: 880px;
   margin: 0 auto;
+  box-sizing: border-box;
+}
+
+@media (max-width: 1024px) {
+
+  .profile {
+    width: 581px;
+  }
+
+}
+
+@media (max-width: 768px) {
+
+  .profile {
+    /*Вертикальное для мобильных*/
+    flex-direction: column;
+
+    /*Размеры и отступы*/
+    width: 282px;
+    padding: 42px 0 0;
+  }
+
 }

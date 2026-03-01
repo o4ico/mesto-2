@@ -3,7 +3,13 @@
   /*Размеры и отступы*/
   height: 50px;
   margin: 48px 0 0;
+  padding: 0;
   width: 358px;
+
+  /*Типографика*/
+  font-size: 18px;
+  font-weight: normal;
+  line-height: 1;
 
   /*Оформление*/
   background-color: #000;
@@ -16,4 +22,17 @@
 
 .popup__submit-button:hover {
   opacity: .8;
+}
+
+@media (max-width: 768px) {
+
+  .popup__submit-button {
+    
+    height: 46px;
+    margin: 45px 0 0;
+    width: 238px;
+    
+    font-size: 14px;
+  }
+
 }

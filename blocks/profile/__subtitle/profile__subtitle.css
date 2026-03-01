@@ -1,10 +1,20 @@
 .profile__subtitle {
 
-  /*Сброс отступов*/
+  /*Отступы*/
   margin: 16px 0 0 0;
 
   /*Типографика*/
   font-size: 18px;
   font-weight: normal;
-  line-height: 100%;
+  line-height: 1;
+}
+
+@media (max-width: 768px) {
+
+  .profile__subtitle {
+    /*Отступы*/
+    margin: 14px 0 0 0;
+    font-size: 14px;
+  }
+
 }

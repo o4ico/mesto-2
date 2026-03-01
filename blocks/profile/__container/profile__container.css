@@ -3,3 +3,12 @@
   flex-direction: row;
   align-items: center;
 }
+
+@media (max-width: 768px) {
+
+  .profile__container {
+    /*Вертикальное для мобильных*/
+    flex-direction: column;
+  }
+
+}

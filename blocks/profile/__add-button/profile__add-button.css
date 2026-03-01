@@ -19,3 +19,13 @@
 .profile__add-button:hover {
   opacity: .6;
 }
+
+@media (max-width: 768px) {
+
+  .profile__add-button {
+    height: 50px;
+    width: 282px;
+    background-size: 16px;
+  }
+
+}
