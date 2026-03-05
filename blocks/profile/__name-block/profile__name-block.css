@@ -3,5 +3,13 @@
   flex-direction: row;
   flex-wrap: nowrap;
   align-items: center;
-  gap: 10px;
+  gap: 18px;
+}
+
+@media (max-width: 1024px) {
+
+  .profile__name-block {
+    gap: 10px;
+  }
+
 }

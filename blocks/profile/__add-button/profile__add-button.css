@@ -3,7 +3,9 @@
   /*Размеры и отступы*/
   height: 50px;
   width: 150px;
-
+  margin: 0;
+  padding: 0;
+  
   /*Оформление кнопки*/
   background-color: #000;
   background-image: url(../../../images/Add.svg);
@@ -20,12 +22,26 @@
   opacity: .6;
 }
 
+@media (max-width: 1024px) {
+
+  .profile__add-button {
+    height: 50px;
+    width: 282px;
+    background-size: 16px;
+
+    margin: 36px 0 0;
+  }
+
+}
+
 @media (max-width: 768px) {
 
   .profile__add-button {
     height: 50px;
     width: 282px;
     background-size: 16px;
+
+    margin: 0;
   }
 
 }

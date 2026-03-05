@@ -7,6 +7,12 @@
   font-size: 18px;
   font-weight: normal;
   line-height: 1;
+  max-width: 25ch;
+
+  /*Переполнение блока*/
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
 }
 
 @media (max-width: 768px) {

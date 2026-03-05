@@ -16,6 +16,9 @@
 @media (max-width: 1024px) {
 
   .profile {
+    /*Вертикальное для планшетов*/
+    flex-direction: column;
+
     width: 581px;
   }
 
