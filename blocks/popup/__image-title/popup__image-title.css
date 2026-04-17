@@ -1,0 +1,13 @@
+.popup__image-title {
+  align-self: flex-start;
+
+  /*Сброс отступов*/
+  margin: 10px 0 0;
+
+  /*Типографика*/
+  color: #FFF;
+  font-size: 12px;
+  font-weight: normal;
+  line-height: 1;
+}
+

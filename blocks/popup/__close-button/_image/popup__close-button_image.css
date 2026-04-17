@@ -1,0 +1,13 @@
+.popup__close-button_image {
+  position: relative;
+  top: -8px;
+  right: -40px;
+}
+
+@media (max-width: 768px) {
+
+  .popup__close-button_image {
+    position: relative;
+  }
+
+}
