@@ -1,0 +1,13 @@
+.popup__container_image {
+  /*Выравнивание*/
+  align-items: flex-end;
+
+  /*Сброс формления*/
+  background-color: transparent;
+  border-radius: 0;
+
+  /*размеры и отступы*/
+  width: max-content;
+  height: max-content;
+  padding: 0;
+}
