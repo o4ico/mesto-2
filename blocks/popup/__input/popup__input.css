@@ -12,13 +12,13 @@
 }
 
 .popup__input:first-of-type {
-  margin: 54px 0 30px;
+  margin: 54px 0 0;
 }
 
 @media (max-width: 768px) {
 
   .popup__input:first-of-type {
-    margin: 75px 0 30px;
+    margin: 75px 0 0;
   }
 
 }
