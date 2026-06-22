@@ -51,6 +51,7 @@ function closePopup(popup) {
 // Обработчик окрытия к кнопке "Редактировать профиль"
 editButton.addEventListener('click', () => {
 
+  resetForm(editPopup);//сброс старых ошибок формы
   openPopup(editPopup);
 
   // Переносим старое значение в поле
@@ -71,7 +72,12 @@ function handleEditFormSubmit (evt) {
 }
 
 // Обработчик открытия к кнопке Добавления карточки
-addButton.addEventListener('click', () => openPopup(addPopup));
+addButton.addEventListener('click', () => {
+
+  resetForm(addPopup);//сброс старых ошибок формы
+  openPopup(addPopup);
+
+});
 
 // Обработчик формы добавления карточки
 function handleAddFormSubmit (evt, name, link) {
