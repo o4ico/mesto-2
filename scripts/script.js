@@ -38,15 +38,45 @@ const popupSubmitButtonAdd = document.querySelector('.popup__submit-button_add-c
 function openPopup(popup) {
 
   popup.classList.add('popup_opened');
-
+  document.addEventListener('keydown', handleEscClose);
 }
 
 // Обработчик закрытия попапа
 function closePopup(popup) {
 
   popup.classList.remove('popup_opened');
-
+  document.removeEventListener('keydown', handleEscClose);
 }
+
+// Функция для закрытия по Esc
+function handleEscClose(evt) {
+
+  if (evt.key === 'Escape') {
+    const openedPopup = document.querySelector('.popup_opened');
+
+    if (openedPopup) {
+      closePopup(openedPopup);
+    }
+  }
+}
+
+// Добавляем слушатели на оверлей для каждого попапа
+function setPopupListeners() {
+
+  const popupList = document.querySelectorAll('.popup');
+
+  popupList.forEach((popup) => {
+
+    popup.addEventListener('mousedown', (evt) => {
+
+      if (evt.target === evt.currentTarget) {
+        closePopup(popup);
+      }
+    });
+  });
+}
+
+setPopupListeners();
 
 // Обработчик окрытия к кнопке "Редактировать профиль"
 editButton.addEventListener('click', () => {
@@ -152,3 +182,4 @@ const addInitialCards = initialCards.forEach( (item) => {
   const initialCardTamplate = createCard(item.name, item.link);
   cardContainer.append(initialCardTamplate);
 });
+// Нужно сделать закрытие на esc и на оверлей, изменение размера попапа при длинной ошибке (чеклист).
